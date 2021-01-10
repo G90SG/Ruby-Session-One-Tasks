@@ -1,4 +1,5 @@
 # Task 1 print Hello World 
+
 puts "Hello World!"
 # Task 2 print your name, your (fictional) age and your (fictional} address all on separate lines.
 
@@ -14,11 +15,13 @@ puts "I live in #{address}."
 
 puts "\nMy name is #{name} and I lied, I wish I was #{age} and lived in #{address}"
 #Task 4 - show current date and time
+
 require 'date'
 current_time= DateTime.now
 cdt = current_time.strftime "%d/%m/%y %H:%M"
 puts "\nThe current Date and Time is " +cdt
 #Task 5 Write a Ruby program which accept the user's first and last name and print them in reverse order with a space between them 
+
 puts "\nWhat is your first name: "
 fname = gets.chomp.upcase!
 puts "What is your surname:"
